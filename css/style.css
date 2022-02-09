@@ -1,0 +1,87 @@
+/* &display=swap */
+
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital@0;1&display=swap");
+
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+}
+
+@font-face {
+   font-family: "Playfair Display";
+   src: url("../fonts/PlayfairDisplay-Italic.woff2") format("woff2"),
+      url("../fonts/PlayfairDisplay-Italic.woff") format("woff");
+   font-weight: normal;
+   font-style: italic;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Playfair Display";
+   src: url("../fonts/PlayfairDisplay-Regular.woff2") format("woff2"),
+      url("../fonts/PlayfairDisplay-Regular.woff") format("woff");
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+.h2 {
+   color: red;
+
+   margin: 0px 0px 25px 0px;
+}
+body {
+   font-family: "Ubuntu", sans-serif;
+   margin-left: 20px;
+   margin-top: 15px;
+}
+.div-1 {
+   margin: 0px 0px 15px 0px;
+   width: 500px;
+}
+.div-2 {
+   margin: 0px 0px 15px 0px;
+   max-width: 500px;
+}
+.div-3 {
+   margin: 0px 0px 15px 0px;
+   max-width: 300px;
+
+   font-style: italic;
+}
+.div-4 {
+   font-family: "Playfair Display", serif;
+   text-shadow: 2px 5px 2px rgba(0, 0, 0, 0.281);
+   margin: 0px 0px 15px 0px;
+   width: 50%;
+   overflow: scroll;
+}
+.div-5 {
+   font-family: "Playfair Display", serif;
+   font-style: italic;
+   color: aqua;
+   margin: 0px 0px 15px 0px;
+   height: 200px;
+   overflow: auto;
+   display: block;
+}
+.div-6 {
+   margin: 0px 0px 15px 0px;
+}
+.div-7 {
+   margin: 0px 0px 15px 0px;
+}
+
+.image {
+   margin: 0px 0px 15px 0px;
+   padding-left: 25px;
+}
+
+.footer {
+   text-align: center;
+   width: 100%;
+   margin-bottom: 24px;
+   display: inline-block;
+}
